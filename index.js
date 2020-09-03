@@ -52,7 +52,9 @@ function maxOf(arr){
 function includesNumber(arr, n){
   if (!arr.length) {
     return false;
-  } else if {
-    
+  } else if (arr[0] === n) {
+    return true;
+  } else { 
+    includesNumber(arr.slice(arr.length - 1), n);
   }
 }
