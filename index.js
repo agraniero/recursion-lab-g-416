@@ -55,6 +55,6 @@ function includesNumber(arr, n){
   } else if (arr[0] === n) {
     return true;
   } else { 
-    includesNumber(arr.slice(1), n);
+    return includesNumber(arr.slice(1), n);
   }
 }
