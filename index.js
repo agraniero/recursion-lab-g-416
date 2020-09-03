@@ -50,9 +50,9 @@ function maxOf(arr){
 }
 
 function includesNumber(arr, n){
-  if (arr.length <= 1 && arr[0] === n) {
-    return
-    
+  if (!arr.length) {
+    return false;
+  } else if {
     
   }
 }
